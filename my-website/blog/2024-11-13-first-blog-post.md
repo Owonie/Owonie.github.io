@@ -1,15 +1,16 @@
 ---
-slug: 첫게시글
-title: 첫 게시글
+slug: 20241113
+title: JD를 통한 커리어 영점조정
 authors: Owon
-tags: [yolo, graphQL]
+tags: [JD, 풀스택, 기술, 커리어]
 ---
 
 
+관심있는 JD를 모두 모아 gpt에게 핵심 키워드를 추출해달라 해봤다.
+
+커리어 방향성을 JD 에서 참조하는 것도 좋은 방법이라 생각한다.
 
 <!-- truncate -->
-
-관심있는 JD를 모두 모아 gpt에게 핵심 키워드를 추출해달라 해봤다.
 
 #### A. 프론트엔드 핵심 기술
 
@@ -56,5 +57,3 @@ tags: [yolo, graphQL]
 
 	•	오픈소스 활동 및 Full-stack Engineering 관심
 	•	SaaS 제품 창업 경험이나 목표
-
-커리어 방향성을 JD 에서 참조하는 것도 좋은 방법이라 생각한다.
