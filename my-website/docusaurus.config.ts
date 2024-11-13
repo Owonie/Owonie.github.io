@@ -74,12 +74,12 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: '나만의 해석',
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'left',
+        //   label: '나만의 해석',
+        // },
         {to: '/blog', label: '아무말 대잔치', position: 'left'},
         {
           href: 'https://github.com/Owonie',
