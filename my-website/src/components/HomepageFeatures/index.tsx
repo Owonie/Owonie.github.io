@@ -11,31 +11,28 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: '분해',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/decomposition.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        맛있어 보이는 기술을 과감하게 해체합니다. 쿼크 단위까지 쪼개야 지식의 풍미가 살아납니다.
       </>
     ),
   },
   {
     title: '해석',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/analysis.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        요소를 분석하여 심적표상을 훈련시킵니다. 구성 요소와 연결관계 - 흐름에 집중하면 기분이 좋습니다.
       </>
     ),
   },
   {
-    title: '재구성',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '설계',
+    Svg: require('@site/static/img/reinvention.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          분해, 해석, 설계를 겨쳐 지식체계를 확장합니다. 천추백련/마부작침, 이는 곧 성장을 의미합니다.
       </>
     ),
   },
