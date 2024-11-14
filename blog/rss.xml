@@ -4,10 +4,53 @@
         <title>리버스 디벨로핑 Blog</title>
         <link>https://owonie.github.io/blog</link>
         <description>리버스 디벨로핑 Blog</description>
-        <lastBuildDate>Wed, 13 Nov 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Nov 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
+        <item>
+            <title><![CDATA[A + B = 컴포넌트]]></title>
+            <link>https://owonie.github.io/blog/20241114</link>
+            <guid>https://owonie.github.io/blog/20241114</guid>
+            <pubDate>Thu, 14 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[컴포넌트를 정확하게 두 요소로 분리해주세요.]]></description>
+            <content:encoded><![CDATA[<p>컴포넌트를 정확하게 두 요소로 분리해주세요.
+A + B = "컴포넌트"
+컴포넌트가 모듈의 컴포넌트인지 UI 컴포넌트인지는 미정이에요.</p>
+<p>일단 저먼저 : "UI 컴포넌트" + "모듈 컴포넌트" = "컴포넌트"
+편하게 뇌안거치고 지르셔도 됩니다. 다만 상대방의 분해에 대해 의견이 있다면 얘기 자유롭게 가능.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="분해의-산물">분해의 산물<a href="https://owonie.github.io/blog/20241114#%EB%B6%84%ED%95%B4%EC%9D%98-%EC%82%B0%EB%AC%BC" class="hash-link" aria-label="분해의 산물에 대한 직접 링크" title="분해의 산물에 대한 직접 링크">​</a></h3>
+<ul>
+<li>"UI 컴포넌트" + "모듈 컴포넌트" = 컴포넌트</li>
+<li>"hooks" + "UI" = 컴포넌트 -&gt;  "화면" + "비즈니스로직" = 컴포넌트</li>
+<li>"JSX 태그" + "State / Statement" = 컴포넌트</li>
+<li>"함수형 컴포넌트" + "클래스 컴포넌트" = 컴포넌트</li>
+<li>"UI컴포넌트" + "이펙트" = 컴포넌트</li>
+<li>"컴포넌트" + "컴포넌트" = 컴포넌트</li>
+<li>"모듈" + "모듈" = 컴포넌트</li>
+<li>"요소" + "구조" = 컴포넌트</li>
+<li>"모듈" + "관점지향" = 컴포넌트</li>
+<li>"컴포" + "넌트" = 컴포넌트 (Junho stared this)</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="jonhos-comment">Jonho's Comment<a href="https://owonie.github.io/blog/20241114#jonhos-comment" class="hash-link" aria-label="Jonho's Comment에 대한 직접 링크" title="Jonho's Comment에 대한 직접 링크">​</a></h3>
+<p><code>"hooks" + "UI" = 컴포넌트 -&gt;  "화면" + "비즈니스로직" = 컴포넌트</code></p>
+<p>js가 담당하는 부분의 경우, 리액트 컴포넌트에서는 custom hooks 로 분리될 수 있죠 무조건 분리되야하진 않아서 hooks 라고 표현하기 보다는 그냥 비즈니스 로직이라고 하는게 맞을 수도있을 것 같습니다.</p>
+<p>리액트의 컴포넌트로 생각하고
+-&gt; JSX 태그 + JSX 태그에 주입하는 값 혹은 상태</p>
+<p>상태가 변경될 때마다 새로운 UI 스냅샷을 찍어내므로
+상태를 받는 JSX태그와 값으로만 이루어져 있고 나머지는 이 스냅샷을 위한 것이다?</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bosungs-comment">Bosung's Comment<a href="https://owonie.github.io/blog/20241114#bosungs-comment" class="hash-link" aria-label="Bosung's Comment에 대한 직접 링크" title="Bosung's Comment에 대한 직접 링크">​</a></h3>
+<p><code>"JSX 태그" + "State / Statement" = 컴포넌트</code></p>
+<p>사실 컴포넌트는, 단일 컴포넌트 자체로 하나의 페이지라고 생각 할 수 있을 것 같아요
+A + B 라고 했지만 만약 A + B + C 라고 하면 하나의 페이지를 구성하기 위해 html + css + js 가 필요한 것 처럼
+컴포넌트 또한 html을 담당하는 Return 의 tag 들과 같이 처리되는 css들 그리고 js를 담당하는 hooks로 취급되는 비즈니스 로직들이 될 것 같습니다.</p>
+<p>조금 더 추가하자면, html 의 경우 기본 tag들도 있지만 다른 컴포넌트들도 html이라고 포함할 수 있을 것 같고요.
+css의 경우에는 컴포넌트 외부에서 import 받을 수도 있지만 기본적으로는 컴포넌트에 종속된다고 볼 수 있습니다. 이는 생략도 가능하죠 css 없는 페이지가 존재하는 것처럼요</p>]]></content:encoded>
+            <category>심적표상</category>
+            <category>토취반</category>
+            <category>컴포넌트</category>
+        </item>
         <item>
             <title><![CDATA[JD를 통한 커리어 영점조정]]></title>
             <link>https://owonie.github.io/blog/20241113</link>
