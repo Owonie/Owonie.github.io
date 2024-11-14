@@ -40,13 +40,14 @@ A + B 라고 했지만 만약 A + B + C 라고 하면 하나의 페이지를 구
 컴포넌트 또한 html을 담당하는 Return 의 tag 들과 같이 처리되는 css들 그리고 js를 담당하는 hooks로 취급되는 비즈니스 로직들이 될 것 같습니다.</p>
 <p>조금 더 추가하자면, html 의 경우 기본 tag들도 있지만 다른 컴포넌트들도 html이라고 포함할 수 있을 것 같고요.
 css의 경우에는 컴포넌트 외부에서 import 받을 수도 있지만 기본적으로는 컴포넌트에 종속된다고 볼 수 있습니다. 이는 생략도 가능하죠 css 없는 페이지가 존재하는 것처럼요</p>
+<p>js가 담당하는 부분의 경우, 리액트 컴포넌트에서는 custom hooks 로 분리될 수 있죠 무조건 분리되야하진 않아서 hooks 라고 표현하기 보다는 그냥 비즈니스 로직이라고 하는게 맞을 수도있을 것 같습니다.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="bosungs-comment">Bosung's Comment<a href="https://owonie.github.io/blog/20241114#bosungs-comment" class="hash-link" aria-label="Bosung's Comment에 대한 직접 링크" title="Bosung's Comment에 대한 직접 링크">​</a></h3>
 <p><code>"hooks" + "UI" = 컴포넌트 -&gt;  "화면" + "비즈니스로직" = 컴포넌트</code></p>
-<p>js가 담당하는 부분의 경우, 리액트 컴포넌트에서는 custom hooks 로 분리될 수 있죠 무조건 분리되야하진 않아서 hooks 라고 표현하기 보다는 그냥 비즈니스 로직이라고 하는게 맞을 수도있을 것 같습니다.</p>
 <p>리액트의 컴포넌트로 생각하고
 -&gt; JSX 태그 + JSX 태그에 주입하는 값 혹은 상태</p>
 <p>상태가 변경될 때마다 새로운 UI 스냅샷을 찍어내므로
-상태를 받는 JSX태그와 값으로만 이루어져 있고 나머지는 이 스냅샷을 위한 것이다?</p>]]></content:encoded>
+상태를 받는 JSX태그와 값으로만 이루어져 있고 나머지는 이 스냅샷을 위한 것이다?</p>
+<p>state로 가야할지 아니면 문(statement)로 가야할지는 고민이네요. state는 아시는 것처럼 state가 변하는 것이 컴퍼넌트를 다시 그리는 조건 중에 하나이고, 문(statement)은 계속해서 값이 바뀌고 있어도 리렌더링이 일어나지 않을 가능성이 있기 때문에, 어떤게 더 적절할지 고민입니다.</p>]]></content:encoded>
             <category>심적표상</category>
             <category>토취반</category>
             <category>컴포넌트</category>
