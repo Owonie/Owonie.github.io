@@ -124,7 +124,7 @@ A + B = "컴포넌트"
 </ul>
 <hr>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="junhos-comment">Junho's Comment<a href="https://owonie.github.io/blog/20241114#junhos-comment" class="hash-link" aria-label="Junho's Comment에 대한 직접 링크" title="Junho's Comment에 대한 직접 링크">​</a></h3>
-<p><code>"JSX 태그" + "State / Statement" = 컴포넌트</code></p>
+<p><code>"hooks" + "UI" = 컴포넌트 -&gt;  "화면" + "비즈니스로직" = 컴포넌트</code></p>
 <p>사실 컴포넌트는, 단일 컴포넌트 자체로 하나의 페이지라고 생각 할 수 있을 것 같아요
 A + B 라고 했지만 만약 A + B + C 라고 하면 하나의 페이지를 구성하기 위해 html + css + js 가 필요한 것 처럼
 컴포넌트 또한 html을 담당하는 Return 의 tag 들과 같이 처리되는 css들 그리고 js를 담당하는 hooks로 취급되는 비즈니스 로직들이 될 것 같습니다.</p>
@@ -132,7 +132,7 @@ A + B 라고 했지만 만약 A + B + C 라고 하면 하나의 페이지를 구
 css의 경우에는 컴포넌트 외부에서 import 받을 수도 있지만 기본적으로는 컴포넌트에 종속된다고 볼 수 있습니다. 이는 생략도 가능하죠 css 없는 페이지가 존재하는 것처럼요</p>
 <p>js가 담당하는 부분의 경우, 리액트 컴포넌트에서는 custom hooks 로 분리될 수 있죠 무조건 분리되야하진 않아서 hooks 라고 표현하기 보다는 그냥 비즈니스 로직이라고 하는게 맞을 수도있을 것 같습니다.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="bosungs-comment">Bosung's Comment<a href="https://owonie.github.io/blog/20241114#bosungs-comment" class="hash-link" aria-label="Bosung's Comment에 대한 직접 링크" title="Bosung's Comment에 대한 직접 링크">​</a></h3>
-<p><code>"hooks" + "UI" = 컴포넌트 -&gt;  "화면" + "비즈니스로직" = 컴포넌트</code></p>
+<p><code>"JSX 태그" + "State / Statement" = 컴포넌트</code></p>
 <p>리액트의 컴포넌트로 생각하고
 -&gt; JSX 태그 + JSX 태그에 주입하는 값 혹은 상태</p>
 <p>상태가 변경될 때마다 새로운 UI 스냅샷을 찍어내므로
