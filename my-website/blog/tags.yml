@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+심적표상:
+  label: 심적표상
+  permalink: /심적표상
+  description: 뇌속의 개념을 뚜렷하게 만듭니다.

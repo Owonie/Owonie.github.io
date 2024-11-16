@@ -1,5 +1,5 @@
 Owon:
-  name: Owon
+  name: Dowon Choi
   title: Front End Engineer
   url: https://github.com/Owonie
   image_url: https://github.com/owonie.png
@@ -7,3 +7,28 @@ Owon:
   socials:
     linkedin: owonie
     github: owonie
+Jooeun:
+  name: Jooeun Kang
+  title: Front End Engineer
+  url: https://github.com/joogle-ay
+  image_url: https://github.com/joogle-ay.png
+  page: true
+  socials:
+    github: joogle-ay
+Bosung:
+  name: Bosung Baek
+  title: Front End Engineer
+  url: https://github.com/BO-LIKE-CHICKEN
+  image_url: https://github.com/BO-LIKE-CHICKEN.png
+  page: true
+  socials:
+    github: BO-LIKE-CHICKEN
+
+Junho:
+  name: Junho Yun
+  title: Front End Engineer
+  url: https://github.com/yunjunhojj
+  image_url: https://github.com/yunjunhojj.png
+  page: true
+  socials:
+    github: yunjunhojj
